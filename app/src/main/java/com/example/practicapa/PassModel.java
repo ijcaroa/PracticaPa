@@ -22,10 +22,12 @@ public class PassModel {
         if (caracterExtension(pass)) {
             return "Weak";
         } else {
-            if (caracterExtension(pass)) {
+            if (verificarMayusc(pass)) {
                 return "Medium";
             } else {
                 return "Strong";
+
+
             }
         }
     }
